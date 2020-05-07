@@ -87,7 +87,7 @@ end
              game_title = gets.chomp
          search_for_game = Game.find_by(title:game_title)
     foundgame = Game.where(id:search_for_game).first
-            puts "Are you sure you want to check out #{game_title}?"
+            puts "Are you sure you want to check out #{game_title}? Type 1 or 2"
                         puts
                             puts "
                             1. Yes       2. Maybe later (Main Menu)
